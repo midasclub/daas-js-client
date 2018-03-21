@@ -1,0 +1,23 @@
+{
+	"name": "@daas/client",
+	"version": "0.0.1-dev.1",
+	"description": "A client to interact with the DaaS API",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc",
+		"prepack": "npm run build",
+		"reformat": "prettier --write \"**/*.ts\""
+	},
+	"author": "Pablo Rodríguez <pabloviolin8@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"@daas/model": "0.0.1-dev.8",
+		"node-fetch": "^1.7.3"
+	},
+	"devDependencies": {
+		"@types/node-fetch": "^1.6.7",
+		"prettier": "^1.9.2",
+		"typescript": "^2.6.2"
+	}
+}
