@@ -27,8 +27,8 @@ export class LobbiesClient extends AbstractClient {
 		const { body } = await super.postRequest(
 			"lobbies",
 			Object.assign(data, {
-				server: Server[data.server],
-				gameMode: GameMode[data.gameMode]
+				server: data.server,
+				gameMode: data.gameMode
 			})
 		)
 		return Lobby.deserialize(body)

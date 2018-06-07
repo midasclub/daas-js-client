@@ -3,6 +3,6 @@ export class DaasApiError extends Error {
 
 	constructor(error: { message: string }) {
 		super(error.message)
-		this.error = error
+		this.error = JSON.stringify(error)
 	}
 }
