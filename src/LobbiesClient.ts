@@ -1,4 +1,4 @@
-import { GameMode, Lobby, LobbyStatus, MatchResult, Server } from "@daas/model"
+import { Lobby, LobbyStatus, MatchResult } from "@daas/model"
 import { AbstractClient } from "./AbstractClient"
 import { handleNotFound } from "./support/handleNotFound"
 import { CreateLobbyData } from "./interfaces/CreateLobbyData"

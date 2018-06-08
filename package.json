@@ -10,6 +10,9 @@
 		"reformat": "prettier --write \"**/*.ts\""
 	},
 	"author": "Pablo Rodríguez <pabloviolin8@gmail.com>",
+	"contributors": [
+    "Araan Branco <araanbranco@protonmail.com>"
+  ],
 	"license": "MIT",
 	"dependencies": {
 		"@daas/model": "0.0.1-dev.8",
